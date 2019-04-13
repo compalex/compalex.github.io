@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>shitty site</title>
+    <link rel="stylesheet" type="text/css" href="css/Style.css">
+</head>
+
+<body>
+    <div class="blocks">
+        <h3>Log in if you've got an account already:</h3>
+        <hr>
+        <div class="box-1">
+            <label>Username</label>
+            <input type="text" id="logName" placeholder="Enter your username">
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="text" id="logPswrd" placeholder="Enter your password">
+        </div>
+        <br>
+        <button onclick="logInFunction();">Log in</button>
+        <hr>
+        <hr>
+    </div>
+    <div class="blocks">
+        <h3>...or create the new one:</h3>
+        <hr>
+        <div>
+            <label >Username</label>
+            <input type="text" id="signName" placeholder="Create new username" required/>
+        </div>
+        <br>
+        <div>
+            <label >Password</label>
+            <input type="text" id="signPswrd" placeholder="Create new password" required/>
+        </div>
+        <br>
+        <button onclick="signUpFunction();">Sign up</button>
+        <hr>
+        <hr>
+    </div>
+    <h3 id='result'></h3>
+    <a href="https://compalex.github.io/PassatVsOpels/">wanna play!</a>
+    <script src="js/scr.js"></script>
+</body>
+</html>
